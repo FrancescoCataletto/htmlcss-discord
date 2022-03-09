@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <title>Discord</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
         <!-- MENù -->
 
         <nav>
-            <ul>
+            <ul class="container">
                 <li>1</li>
                 <li>2</li>
                 <li>3</li>
@@ -29,7 +31,7 @@
         <!-- JUMBOTRON -->
 
         <div id="jumbotron">
-            <div>
+            <div class="container"> 
 
             </div>
         </div>
@@ -38,32 +40,48 @@
     <main>
 
         <!-- FIRST SECTION -->
-        <section>
-            <div>
-                <div>immagine</div>
-                <div>testo</div>
+        <section class="first section">
+            <div class="container clearfix">
+                
+                <img src="img/item1.svg" alt="first-image" class="float img">
+                
+                <div class="text">
+                    <h2>
+                        Un luogo a invito con tutto lo spazion necessario per parlare
+                    </h2>
+                    <p>
+                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
+                    </p>
+                </div>
+
             </div>
         </section>
 
         <!-- SECOND SECTION -->
-        <section>
-            <div>
-                <div>immagine</div>
+        <section class="second section">
+            <div class="container clearfix">
+                
+                <img src="img/item2.svg" alt="" class="float img">
+                           
                 <div>testo</div>
+
             </div>
         </section>
 
         <!-- THIRD SECTION -->
-        <section>
-            <div>
-                <div>immagine</div>
+        <section class="third section">
+            <div class="container clearfix">
+                
+                <img src="img/item3.svg" alt="" class="float img">
+                              
                 <div>testo</div>
+
             </div>
         </section>
 
         <!-- FOURTH SECTION -->
-        <section>
-            <div>
+        <section class="fourth section">
+            <div class="container clearfix">
                 <div>immagine</div>
                 <div>testo</div>
                 <div>bottone</div>
@@ -73,13 +91,18 @@
     </main>
 
     <footer>
-        <div>
+
+        <!-- TOP SECTION OF FOOTER -->
+        <div class="container clearfix">
+
+            <!-- CHEVRON -->
             <div>
                 <h2>
                     il tuo posto per parlare
                 </h2>
             </div>
 
+            <!-- FIRST LIST -->
             <ul>
                 <li>Prodotto</li>
                 <li>Scarica</li>
@@ -89,6 +112,7 @@
                 <li>Assistenza</li>
             </ul>
 
+            <!-- SECOND LIST -->
             <ul>
                 <li>Compagnia</li>
                 <li>Chi siamo</li>
@@ -98,6 +122,7 @@
                 <li>Negozio</li>
             </ul>
 
+            <!-- THIRD LIST -->
             <ul>
                 <li>Risorse</li>
                 <li>Scarica</li>
@@ -113,6 +138,7 @@
                 <li>Assistenza</li>
             </ul>
 
+            <!-- FOURTH LIST -->
             <ul>
                 <li>Norme</li>
                 <li>Scarica</li>
@@ -123,9 +149,11 @@
             </ul>
         </div>
 
-        <div>
+        <!-- BOTTOM SECTION OF FOOTER -->
+        <div class="container clearfix">
             discord/registrati
         </div>
+
     </footer>
 </body>
 </html>

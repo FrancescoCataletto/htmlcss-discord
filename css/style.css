@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* HEADER */
@@ -21,4 +28,23 @@ nav li{
     height: 500px;
     background-size: cover;
     background-position: center;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+.second, .fourth{
+    background-color: rgb(246, 246, 246);
+}
+
+.first.section .float.img, .third.section .float.img{
+    float: left;
+}
+
+.second.section .float.img{
+    float: right;
 }
