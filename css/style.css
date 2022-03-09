@@ -157,4 +157,15 @@ nav .button{
 
 #adventure h3{
     padding-bottom: 40px;
+    width: 40%;
+    margin: 0 auto;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#adventure a{
+    background-color: rgb(142, 161, 225);
+    color: white;
 }
