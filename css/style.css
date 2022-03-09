@@ -13,7 +13,6 @@
 
 .button{
     padding: 5px 10px;
-    border: 1px solid black;
     border-radius: 25px;
     text-decoration: none;
 }
@@ -27,8 +26,28 @@ nav{
 
 nav li{
     display: inline-block;
-    padding: 20px 0;
+    font-size: 14px;
 }
+
+#logo{
+    float: left;
+    padding: 30px 0;
+}
+
+nav .button{
+    float: right;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+}
+
+.menu-list{
+    margin-top: 35px;
+    padding: 0 15px;
+    color: white;
+}
+
+
 
 #jumbotron{
     background-image: url("../img/jumbo.png");
@@ -54,7 +73,7 @@ nav li{
 
 .first.section .float.img, .third.section .float.img{
     float: left;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .second.section .float.img{
