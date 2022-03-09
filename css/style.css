@@ -32,6 +32,10 @@ nav li{
     font-size: 14px;
 }
 
+nav li:hover{
+    text-decoration: underline;
+}
+
 #logo{
     float: left;
     padding: 30px 0;
@@ -43,6 +47,12 @@ nav .button{
     background-color: white;
     color: black;
     font-weight: bold;
+}
+
+nav .button:hover{
+    box-shadow: 2px 2px 5px black;
+    text-decoration: none;
+    color: rgb(49, 97, 224);
 }
 
 .menu-list{
@@ -79,6 +89,7 @@ nav .button{
 #jumbotron .container p{
     font-size: 20px;
     padding-bottom: 30px;
+    color: white;
 }
 
 .download.button{
@@ -86,6 +97,11 @@ nav .button{
     color: black;
     padding: 15px 30px;
     font-weight: bold;
+}
+
+.download.button:hover{
+    box-shadow: 2px 2px 5px black;
+    color: rgb(49, 97, 224);
 }
 
 .download.button i{
@@ -98,6 +114,11 @@ nav .button{
     padding: 15px 30px;
     font-weight: bold;
     margin-left: 20px;
+}
+
+.browser.button:hover{
+    box-shadow: 2px 2px 5px black;
+    filter: brightness(0.9);
 }
 
 .container{
@@ -170,6 +191,11 @@ nav .button{
     color: white;
 }
 
+#adventure a:hover{
+    box-shadow: 2px 2px 5px black;
+    filter: brightness(0.9);
+}
+
 /* FOOTER */
 
 footer{
@@ -187,6 +213,10 @@ footer a{
     color: white;
     font-size: 12px;
     text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 .first-link{
@@ -246,4 +276,10 @@ footer a{
     color: white;
     float: right;
     font-weight: bold;
+}
+
+.register.button:hover{
+    box-shadow: 2px 2px 5px black;
+    filter: brightness(0.9);
+    text-decoration: none;
 }
