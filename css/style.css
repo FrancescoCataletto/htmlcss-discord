@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+
+nav{
+    text-align: center;
+    background-color: rgb(49, 97, 224);
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px 0;
+}
+
+#jumbotron{
+    background-image: url("../img/jumbo.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
