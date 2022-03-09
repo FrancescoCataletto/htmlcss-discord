@@ -11,6 +11,13 @@
     clear: both;
 }
 
+.button{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
 /* HEADER */
 
 nav{
@@ -42,7 +49,6 @@ nav li{
 }
 
 .img{
-    width: 50%;
     padding: 5% 0;
 }
 
@@ -67,4 +73,25 @@ nav li{
 .text p{
     padding-top: 30px;
     font-size: 3vh;
+}
+
+.fourth.section .text{
+    text-align: center;
+}
+
+.fourth.section .img{
+    margin: 0 auto;
+}
+
+.fourth.section img{
+    width: 100%;
+}
+
+.fourth.section #adventure{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#adventure h3{
+    padding-bottom: 40px;
 }
