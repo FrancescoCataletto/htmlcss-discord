@@ -19,9 +19,12 @@
 
 /* HEADER */
 
+
+/* nav section */
 nav{
     text-align: center;
     background-color: rgb(49, 97, 224);
+    height: 100px;
 }
 
 nav li{
@@ -39,6 +42,7 @@ nav .button{
     margin-top: 30px;
     background-color: white;
     color: black;
+    font-weight: bold;
 }
 
 .menu-list{
@@ -46,7 +50,7 @@ nav .button{
     padding: 0 15px;
     color: white;
 }
-
+/* end nav section */
 
 
 #jumbotron{
@@ -54,6 +58,46 @@ nav .button{
     height: 500px;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+#jumbotron .container{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#jumbotron .container h2{
+    font-size: 3vw;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#jumbotron .container p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.download.button{
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.download.button i{
+    padding-right: 10px;
+}
+
+.browser.button{
+    background-color: rgb(35, 39, 42);
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .container{
