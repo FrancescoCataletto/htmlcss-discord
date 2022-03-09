@@ -17,6 +17,11 @@
     text-decoration: none;
 }
 
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 
@@ -29,7 +34,7 @@ nav{
 
 nav li{
     display: inline-block;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 nav li:hover{
@@ -74,20 +79,20 @@ nav .button:hover{
 #jumbotron .container{
     width: 50%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 #jumbotron .container h2{
-    font-size: 3vw;
+    font-size: 3rem;
     color: white;
     padding-bottom: 30px;
 }
 
 #jumbotron .container p{
-    font-size: 20px;
+    font-size: 1.5rem;
     padding-bottom: 30px;
     color: white;
 }
@@ -121,11 +126,6 @@ nav .button:hover{
     filter: brightness(0.9);
 }
 
-.container{
-    width: 70%;
-    margin: 0 auto;
-}
-
 /* MAIN */
 
 .second, .fourth{
@@ -134,6 +134,7 @@ nav .button:hover{
 
 .img{
     padding: 5% 0;
+    width: 50%;
 }
 
 .first.section .float.img, .third.section .float.img{
