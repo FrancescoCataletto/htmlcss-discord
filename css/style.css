@@ -41,10 +41,30 @@ nav li{
     background-color: rgb(246, 246, 246);
 }
 
+.img{
+    width: 50%;
+    padding: 5% 0;
+}
+
 .first.section .float.img, .third.section .float.img{
     float: left;
+    margin-right: 200px;
 }
 
 .second.section .float.img{
     float: right;
+}
+
+.text{
+    padding-top: 100px;
+}
+
+.text h2{
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.text p{
+    padding-top: 30px;
+    font-size: 3vh;
 }
