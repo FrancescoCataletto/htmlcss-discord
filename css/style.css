@@ -12,7 +12,7 @@
 }
 
 .button{
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 25px;
     text-decoration: none;
 }
@@ -168,4 +168,82 @@ nav .button{
 #adventure a{
     background-color: rgb(142, 161, 225);
     color: white;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(35, 39, 42);
+}
+
+footer ul{
+    display: inline-block;
+    float: left;
+    padding: 30px 50px 30px 20px;
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.first-link{
+    color: rgb(114, 137, 218);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#chevron{
+    float: left;
+    width: 30%;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+#chevron a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+#chevron a span{
+    padding-right: 2px;
+}
+
+#chevron h2{
+    color: rgb(115, 138, 220);
+    padding-bottom: 20px;
+}
+
+.fa-solid{
+    padding-right: 5px;
+}
+
+#social{
+    padding-top: 20px;
+}
+
+#social i{
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom.container{
+    padding: 50px 0;
+    border-top: 1px solid rgb(142, 161, 225);
+}
+
+#bottom-logo{
+    color: white;
+    float: left;
+}
+
+.register.button{
+    background-color: rgb(142, 161, 225);
+    color: white;
+    float: right;
+    font-weight: bold;
 }
