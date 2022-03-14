@@ -205,9 +205,9 @@ footer{
 }
 
 footer ul{
-    display: inline-block;
     float: left;
-    padding: 30px 50px 30px 20px;
+    padding: 30px 0;
+    width: calc(70% / 4);
     list-style: none;
 }
 
@@ -240,6 +240,11 @@ footer a:hover{
     text-decoration: none;
 }
 
+#chevron img{
+    width: 5%;
+    min-width: 10px;
+}
+
 #chevron a span{
     padding-right: 2px;
 }
@@ -255,12 +260,17 @@ footer a:hover{
 
 #social{
     padding-top: 20px;
+    width: 100%;
 }
 
 #social i{
-    padding-right: 20px;
     color: white;
     font-size: 20px;
+}
+
+#social a{
+    float: left;
+    width: 25%;
 }
 
 .bottom.container{
